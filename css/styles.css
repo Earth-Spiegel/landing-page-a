@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial Black, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    background-color: #353935;
+    color: #F9F6EE;
+}
+
+/* Utility Classes */
+.container {
+    text-align: center;
+    padding: 0 1rem;
+}
+
+img {
+    height: auto;
+    width: 35%;
+}
+
+/* Showcase */
+#showcase {
+    background-image: url("../img/showcase-3.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#showcase .container {
+    background-color: #35393550 ;
+    color: #F9F6EE;
+    padding: 15px;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 55vh;
+}
+
+#showcase h1 {
+    font-size: 75px;
+    line-height: 1.2;
+}
+
+.lead {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#showcase .button {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F9F6EE;
+    border: 1px solid #F9F6EE;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#showcase .button:hover {
+    background-color: #F9F6EE;
+    color: #353935;
+}
+
+/*About Us*/
+#about-us {
+    color: #F9F6EE;
+    overflow-y: hidden;
+}
+
+#about-us .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px 10px;
+}
+
+.section-head {
+    padding-bottom: 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#about-us p {
+    line-height: 1.6;
+    font-size: 20px;
+    width: 75%;
+}
+
+#about-us img {
+    margin: 0;
+    padding-top: 10px;
+}
+
+/* Responsive Web */
+@media screen and (max-width: 580px) {
+    .make-smaller {
+        width: 100%;
+    }
+   #about-us .make-smaller-p {
+        width: 100%;
+    }
+}
