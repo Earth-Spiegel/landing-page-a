@@ -8,7 +8,7 @@ body {
     font-family: Arial Black, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 17px;
     line-height: 1.6;
-    background-color: #353935;
+    background-color: #F9F6EE;
     color: #F9F6EE;
 }
 
@@ -25,7 +25,7 @@ img {
 
 /* Showcase */
 #showcase {
-    background-image: url("../img/showcase-3.jpg");
+    background-image: url("../img/showcase.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -42,7 +42,7 @@ img {
     padding: 15px;
     border-radius: 50px;
     text-align: center;
-    margin-bottom: 55vh;
+    margin-bottom: ;
 }
 
 #showcase h1 {
@@ -74,7 +74,8 @@ img {
 
 /*About Us*/
 #about-us {
-    color: #F9F6EE;
+    background-color: #F9F6EE;
+    color: #353935;
     overflow-y: hidden;
 }
 
@@ -83,7 +84,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     margin: 15px 10px;
 }
 
@@ -94,14 +94,64 @@ img {
 }
 
 #about-us p {
+    background-color: #35393510;
+    border-radius: 25px;
     line-height: 1.6;
     font-size: 20px;
     width: 75%;
+    padding: 20px;
+    margin-bottom: 10px;
 }
 
 #about-us img {
+    border-radius: 25px;
     margin: 0;
     padding-top: 10px;
+}
+
+/* Services */
+#services {
+    background-color: #F9F6EE;
+    color: #353935;
+    overflow-y: hidden;
+}
+#services .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    background-color: #35393510;
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 27px;
+    border-radius: 25px;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 400 ;
+}
+
+/* Contact Us */
+#contact-us {
+    background-color: #353935;
+    color: #F9F6EE;
+    overflow-y: hidden;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#contact-us .container {
+    margin: 15px 0 20px 0;
+}
+
+#contact-us h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 /* Responsive Web */
@@ -109,7 +159,7 @@ img {
     .make-smaller {
         width: 100%;
     }
-   #about-us .make-smaller-p {
+   #about-us .make-smaller-p, #services .make-smaller-p {
         width: 100%;
     }
 }
