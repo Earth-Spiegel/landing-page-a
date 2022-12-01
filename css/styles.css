@@ -51,7 +51,7 @@ img {
 }
 
 .lead {
-    font-size: 20px;
+    font-size: 2em;
     font-weight: 700;
 }
 
@@ -70,6 +70,18 @@ img {
 #showcase .button:hover {
     background-color: #F9F6EE;
     color: #353935;
+}
+
+.price-notice {
+    margin-top: 2.5em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    font-size: 3.2em;
+}
+
+.travel-price {
+    font-size: .4em;
 }
 
 /*About Us*/
@@ -174,11 +186,20 @@ a[href^=tel] {
 
 
 /* Responsive Web */
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 400px) {
     .make-smaller {
         width: 100%;
     }
    #about-us .make-smaller-p, #services .make-smaller-p {
         width: 100%;
+    }
+    .price-notice {
+        margin-top: 1em;
+        display: flex;
+        flex-flow: column wrap;
+        font-size: 2.3em;
+    }
+    .travel-price {
+        font-size: .6em;
     }
 }
