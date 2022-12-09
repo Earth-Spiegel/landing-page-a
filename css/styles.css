@@ -43,6 +43,8 @@ img {
     border-radius: 50px;
     text-align: center;
     margin-bottom: 3em;
+    margin-top: 3em;
+    max-height: 100vh;
 }
 
 #showcase h1 {
@@ -51,7 +53,7 @@ img {
 }
 
 .lead {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 700;
 }
 
@@ -73,15 +75,17 @@ img {
 }
 
 .price-notice {
-    margin-top: 1em;
+    margin-top: .8em;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-end;
-    font-size: 3.2em;
+    font-size: 3em;
+    line-height: 1.2;
 }
 
 .travel-price {
     font-size: .4em;
+    padding-top: .7em;
 }
 
 /*About Us*/
