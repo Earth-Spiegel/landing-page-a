@@ -73,7 +73,7 @@ img {
 }
 
 .price-notice {
-    margin-top: 2.5em;
+    margin-top: 1em;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-end;
